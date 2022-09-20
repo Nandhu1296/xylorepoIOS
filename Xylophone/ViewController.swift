@@ -19,7 +19,7 @@ class ViewController: UIViewController {
 
     @IBAction func keyPressC(_ sender: UIButton) {
 //        print(sender.currentTitle)
-        var soundNamer = sender.currentTitle
+        let soundNamer = sender.currentTitle
         playSound(soundNamer: soundNamer!)
     }
     
